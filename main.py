@@ -1,7 +1,6 @@
-my_string = input('Здраствуйте, как вас зовут? ')
-print(len(my_string))
-print(my_string.upper())
-print(my_string.lower())
-print(my_string.replace(' ', ''))
-print(my_string[0:1])
-print(my_string[-1:10])
+immutable_var = ([1, 2], '3', '4')
+print(immutable_var)
+mutable_list = ([1, 2] ,'4', '3')
+print(mutable_list)
+mutable_list = ([1, 2] ,'4', '3') * 3
+print(mutable_list)
